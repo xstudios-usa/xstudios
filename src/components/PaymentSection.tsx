@@ -21,7 +21,7 @@ const PaymentSection = () => {
               <img 
                 src="/lovable-uploads/492c54c7-306d-4f9d-8266-cfdd1e54471d.png"
                 alt="Zelle Payment QR Code"
-                className="w-48 h-48 object-contain"
+                className="w-64 h-64 object-contain"
               />
             </div>
             <p className="text-sm text-muted-foreground">

@@ -23,12 +23,9 @@ const HeroSection = () => {
           Transform your digital presence with stunning, responsive websites that capture your brand's essence and drive results.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex justify-center">
           <Button variant="vibrant" size="lg" className="text-lg px-8 py-6">
             Get Started Today
-          </Button>
-          <Button variant="secondary" size="lg" className="text-lg px-8 py-6">
-            View Our Work
           </Button>
         </div>
       </div>

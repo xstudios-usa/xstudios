@@ -8,7 +8,7 @@ const HeroSection = () => {
           <img 
             src="/lovable-uploads/72c84dc8-6797-415e-a340-9bc768d870d7.png" 
             alt="X Creations Web Studios"
-            className="mx-auto h-32 md:h-48 w-auto mb-6 drop-shadow-2xl"
+            className="mx-auto h-64 md:h-96 w-auto mb-6 drop-shadow-2xl"
           />
         </div>
         

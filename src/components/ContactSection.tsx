@@ -42,54 +42,9 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Contact Info */}
-          <div className="lg:col-span-1 space-y-6">
-            <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-xl text-foreground flex items-center gap-3">
-                  <div className="p-2 rounded-full bg-gradient-secondary">
-                    <Mail className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  Email Us
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">info@xcreationsstudios.com</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-xl text-foreground flex items-center gap-3">
-                  <div className="p-2 rounded-full bg-gradient-secondary">
-                    <Phone className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  Call Us
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">(555) 123-4567</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-xl text-foreground flex items-center gap-3">
-                  <div className="p-2 rounded-full bg-gradient-secondary">
-                    <MapPin className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  Visit Us
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">Creative District, Design City</p>
-              </CardContent>
-            </Card>
-          </div>
-
+        <div className="max-w-2xl mx-auto">
           {/* Contact Form */}
-          <div className="lg:col-span-2">
+          <div>
             <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-foreground">Send us a message</CardTitle>
